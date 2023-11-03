@@ -1,0 +1,18 @@
+body{width: auto;}
+.IMG {
+    position: relative;
+    width: 1320px;
+    height: 328px;
+    left: 300px;
+    top: 350px;
+}
+@media screen and (max-width:1030px){
+    body{
+        width: 1030px;
+    }
+    .IMG{
+        width: 950px;
+        left: 25px;
+        margin-top: -50px;
+    }
+}

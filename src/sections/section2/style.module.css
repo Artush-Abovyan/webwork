@@ -1,0 +1,165 @@
+.body{
+    margin-top: 300px;
+    margin-left: 417px;
+    width: 1085px;
+    height: 935px;
+    top: 1250px;
+    background-color: #ececee;
+    opacity: 0.36px;
+}
+.title {
+    text-align: center;
+    justify-content: center;
+    width: 486px;
+    height: 52px;
+    margin-top: 155px;
+    margin-left:308px;
+    position: relative;
+}
+.title h1 {
+   position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-left: 55px;
+
+}
+.text1 {
+    width: 571px;
+    height: 57px;
+    margin-top: 30px;
+    margin-left: 266px;
+
+
+}
+.text1 p{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-weight: 400; 
+
+}
+.howdasitwork {
+    position: absolute;
+    width: 590px;
+    height: 128px;
+    top: 1707px;
+    left: 300px;
+    
+
+}
+.howdasitwork h1 {
+    width: 300px;
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+.howdasitwork p {
+    width: 560px;
+    height: 74px;
+    top: 1861px;
+    left: 300px;
+
+}
+.list {
+    position: absolute;
+    width: 292px;
+    height: 377px;
+    top: 1490px;
+    left: 978px;
+    border-radius: 15px;
+    border: 0.5px ridge;
+    background-color: white;
+}
+
+.anderdiv {
+    width: 471px;
+    height: 432px;
+    top: 1550px;
+    left: 1047px;
+    border-radius: 15px;
+    border: 1.5px dashed;
+    position: absolute;
+    border-color: #484A6133;
+
+    
+}
+.images img{
+    position: absolute;
+    width: 308.55px;
+    height: 245.24px;
+    top: 1640px;
+    left: 1311.45px;
+    
+}
+.slick {
+    position: absolute;
+    width: 314.36px;
+    height: 199.78px;
+    margin-top: 512px;
+    left: 1183.25px;
+    border: 1px ridge;
+    background-color: white;
+}
+.slick p{
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: small;
+}
+.slick button {
+    background-color: green;
+    width: 101.48px;
+    height: 35.62px;
+    margin-left: 106px;
+    border-radius: 3.55px;
+}
+@media screen and (max-width:1030px){
+    .body{
+        width: 950px;
+        height: 950px;
+        margin-top: 350px;
+        margin-left: 26px;
+    }
+    .title{
+        margin-left: 252px;
+    }
+    .text1{
+        margin-left: 210px;
+    }
+    .anderdiv{
+        left: 280px;
+    }
+    .list{
+        left: 210px;
+    }
+    .images img{
+        left: 550px;
+        margin-top: 40px;
+    }
+    .slick{
+        left: 420px;
+        margin-top: 465px;
+    }
+    .howdasitwork{
+        position: relative;
+        top: 880px;
+        width: 990px;
+        left: 130px;
+        
+    }
+    .howdasitwork h1{
+        text-align: center;
+        margin-left: 230px;
+    }
+    .howdasitwork p{
+        width: 770px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,112 @@
+.matherdiv{
+    top: 100px;
+    width: 1920px;
+    height: 490px;
+    position: relative;
+}
+.text {
+    top: 120px;
+    left: 1050px;
+    position: absolute;
+    width: 578px;
+    height: 210px; 
+}
+.text h1 {
+    font-family: Source Sans Pro;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.007em;
+    text-align: left;
+}
+.text p{
+    margin-top: 20px;
+}
+.anderdiv {
+    position: absolute;
+    width: 578px;
+    height: 334px;
+    margin-top: 90px;
+    margin-left: 240px;
+}
+.formimg {
+    position: relative;
+    width: 258.97px;
+    height: 289px;
+    left: 29px;
+    bottom: 329px;
+}
+.ellips {
+    position: relative;
+    top: 286px;
+    left: 520px;
+    width: 19.36px;
+    height: 19.37px;
+}
+.variants { 
+    position: relative;
+    width: 190px;
+    height: 105.18px;
+    top: 219px;
+    left: 707px;
+    border-radius: 27.07px;
+}
+.vector1{
+    position: relative;
+    width: 165.26px;
+    height: 71.02px;
+    left: 540px;
+    top: 101px;
+}
+.vector2 {
+    position: relative;
+    width: 165px;
+
+    left: 540px;
+    top: 110px;
+}
+@media screen and (max-width:1030px){
+    body{
+        width: 1030px;
+        height: 1000px;
+    }
+    .matherdiv{
+        width: 1030px;
+        height: 600px;
+    }
+    .anderdiv{
+        top: 300px;
+    }
+    .ellips{
+        top:600px;
+    }
+    .variants{
+        top: 530px;
+    }
+    .vector1{
+        top: 420px;
+    }
+    .vector2{
+        top: 420px;
+    }
+    .text{
+        left: 212px;
+        width: 720px;
+        text-align: center;
+    }
+    .text h1{
+        text-align: center;
+        width: 520px;
+        margin-left: 110px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
